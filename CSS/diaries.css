@@ -54,7 +54,7 @@ header {
 }
 
 main img {
-  display:block;
+  display: block;
   max-width: 100%;
 }
 
@@ -169,16 +169,15 @@ height: auto;
   color: #ffffff;
   font-size: 14px;
   font-weight: normal;
-  line-height: normal;
+  margin: 10px;
 }
-
 
 #welcome, #dishoom {
   display: block;
   font-size: 2em; /*2em = x2 given font size is 14px*/
   font-family: 'Poppins', sans-serif;
   text-align: left;
-  text-weight: bold;
+  weight: bold;
   text-transform: uppercase;
   color: #05264c;
   margin: 10px;
@@ -189,9 +188,31 @@ height: auto;
   font-size: 2em; /*2em = x2 given font size is 14px*/
   font-family: 'Poppins', sans-serif;
   text-align: left;
-  text-weight: bold;
+  weight: bold;
   text-transform: uppercase;
   color: #ffffff;
+  margin: 10px;
+}
+
+#basic {
+  display: block;
+  font-size: 2em; /*2em = x2 given font size is 14px*/
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  weight: bold;
+  text-transform: uppercase;
+  color: #05264C;
+  margin: 10px;
+}
+
+#magic {
+  display: block;
+  font-size: 2em; /*2em = x2 given font size is 14px*/
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  weight: bold;
+  text-transform: uppercase;
+  color: #05264C;
   margin: 10px;
 }
 
