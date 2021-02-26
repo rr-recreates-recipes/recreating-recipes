@@ -6,7 +6,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   background-color: #ffffff;
-  padding: 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 header {
@@ -26,6 +26,7 @@ header {
   font-family: 'Bodoni MT', Didot, Garamond, Times News Roman, serif;
   font-weight: bold;
   font-style: italic;
+  font-size: 50px;
   text-align: center;
   text-shadow: 2px 2px #000000;
   text-transform: uppercase;
