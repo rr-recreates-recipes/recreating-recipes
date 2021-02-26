@@ -220,7 +220,7 @@ height: auto;
 
 footer {
   background-color: #05264c;
-  font: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #F1D729;
   font-size; 12px;
   font-weight: normal;
