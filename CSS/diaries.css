@@ -15,16 +15,16 @@ header {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../img/header.png');
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
-  background-size; cover;
   position: relative;
 }
 
 .hero-text {
   font-family: 'Bodoni MT', Didot, Garamond, Times News Roman, serif;
+  font-weight: bold;
   font-style: italic;
   text-align: center;
   text-shadow: 2px 2px #000000;
@@ -32,7 +32,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
   color: #ffffff;
 }
 
@@ -55,6 +55,7 @@ header {
 
 main img {
   max-width: 100%;
+  margin: 10px;
 }
 
 #s1 {
@@ -106,13 +107,50 @@ height: auto;
 
 .subheading-two {
     font-family: "Poppins", sans-serif;
-    color: #05264C;
+    color: #17272A;
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 2px;
-    line-height: normal;
+    margin: 10px;
+    padding: 10px;
+}
+
+.subheading-three {
+    font-family: "Poppins", sans-serif;
+    color: #F1D729;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.subheading-four {
+    font-family: "Poppins", sans-serif;
+    color: #17272A;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.subheading-five {
+    font-family: "Poppins", sans-serif;
+    color: #17272A;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .navy-text {
@@ -120,18 +158,24 @@ height: auto;
   color: #000000;
   font-size: 14px;
   font-weight: normal;
+  margin: 10px;
+}
+
+.blue-text {
+  font-family: 'Poppins', sans-serif;
+  color: #05264C;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 10px;
 }
 
 #welcome, #dishoom {
   display: block;
-  font-size: 2em; /*2em = x2 given font size is 16px*/
+  font-size: 2em; /*2em = x2 given font size is 14px*/
   font-family: 'Poppins', sans-serif;
   text-align: left;
   text-weight: bold;
   text-transform: uppercase;
   color: #05264c;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 10px;
 }
